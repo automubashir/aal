@@ -1,0 +1,185 @@
+{
+    "Ali ibn Abi Talib & Fatimah al-Zahra": {
+        "children": {
+            "Hasan ibn Ali": {
+                "born": 625,
+                "died": 670,
+                "descendants": {
+                    "Hasan al-Muthanna": {
+                        "descendants": {
+                            "Abdullah al-Kamil": {
+                                "descendants": {
+                                    "Idris I of Morocco": {
+                                        "born": 745,
+                                        "died": 791,
+                                        "note": "Founder of the Idrisid Dynasty in Morocco",
+                                        "descendants": {
+                                            "Idris II": {
+                                                "born": 791,
+                                                "died": 828,
+                                                "note": "Expanded Idrisid rule and built Fez",
+                                                "descendants": {
+                                                    "Idrisid Dynasty": {
+                                                        "region": "Morocco",
+                                                        "note": "Ruled parts of Morocco until the 10th century"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "Sharifs of Makkah": {
+                                        "region": "Hejaz",
+                                        "note": "Ruled Makkah for centuries until 1924"
+                                    },
+                                    "Hashemites": {
+                                        "region": "Jordan",
+                                        "note": "Current Jordanian royal family",
+                                        "descendants": {
+                                            "King Abdullah I": {
+                                                "born": 1882,
+                                                "died": 1951,
+                                                "note": "First king of Jordan"
+                                            },
+                                            "King Abdullah II": {
+                                                "born": 1962,
+                                                "note": "Current king of Jordan"
+                                            }
+                                        }
+                                    },
+                                    "Alaouite Dynasty": {
+                                        "region": "Morocco",
+                                        "note": "Current Moroccan royal family",
+                                        "descendants": {
+                                            "King Mohammed VI": {
+                                                "born": 1963,
+                                                "note": "Current king of Morocco"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Husayn ibn Ali": {
+                "born": 626,
+                "died": 680,
+                "descendants": {
+                    "Ali Zayn al-Abidin": {
+                        "born": 658,
+                        "died": 713,
+                        "descendants": {
+                            "Muhammad al-Baqir": {
+                                "born": 676,
+                                "died": 732,
+                                "descendants": {
+                                    "Ja'far al-Sadiq": {
+                                        "born": 702,
+                                        "died": 765,
+                                        "descendants": {
+                                            "Musa al-Kazim": {
+                                                "born": 744,
+                                                "died": 799,
+                                                "descendants": {
+                                                    "Ali al-Ridha": {
+                                                        "born": 766,
+                                                        "died": 818,
+                                                        "descendants": {
+                                                            "Muhammad al-Taqi": {
+                                                                "born": 811,
+                                                                "died": 835,
+                                                                "descendants": {
+                                                                    "Ali al-Hadi": {
+                                                                        "born": 827,
+                                                                        "died": 868,
+                                                                        "descendants": {
+                                                                            "Hasan al-Askari": {
+                                                                                "born": 846,
+                                                                                "died": 874,
+                                                                                "descendants": {
+                                                                                    "Muhammad al-Mahdi": {
+                                                                                        "born": 869,
+                                                                                        "disappearance": 874,
+                                                                                        "note": "12th Imam in occultation (Shi'a belief)"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Zayd ibn Ali": {
+                                                "died": 740,
+                                                "note": "Founder of Zaydi sect"
+                                            },
+                                            "Isma'il ibn Ja'far": {
+                                                "born": null,
+                                                "died": "~before 765",
+                                                "note": "Recognized by Isma'ilis as the 7th Imam; considered deceased early by Twelvers",
+                                                "descendants": {
+                                                    "Muhammad ibn Isma'il": {
+                                                        "note": "Hidden Imam in early Isma'ili belief, regarded as the 7th Imam by Isma'ilis",
+                                                        "descendants": {
+                                                            "Isma'ili Imams (Hidden)": {
+                                                                "note": "Imams were in concealment for a time",
+                                                                "descendants": {
+                                                                    "Fatimid Caliphate": {
+                                                                        "note": "Established by Ubayd Allah al-Mahdi Billah in 909 CE",
+                                                                        "descendants": {
+                                                                            "al-Mustansir Billah": {
+                                                                                "note": "After his death, the Isma'ilis split into Nizari and Tayyibi branches",
+                                                                                "descendants": {
+                                                                                    "Nizari Branch": {
+                                                                                        "note": "Led by Hasan-i Sabbah, continued line to present-day Aga Khans",
+                                                                                        "descendants": {
+                                                                                            "Aga Khan I": {
+                                                                                                "born": 1804,
+                                                                                                "died": 1881,
+                                                                                                "note": "First Aga Khan recognized by Qajar Shah of Persia"
+                                                                                            },
+                                                                                            "Aga Khan IV": {
+                                                                                                "born": 1936,
+                                                                                                "note": "Current spiritual leader of Nizari Isma'ilis"
+                                                                                            }
+                                                                                        }
+                                                                                    },
+                                                                                    "Tayyibi Branch": {
+                                                                                        "note": "Imamate continued in concealment; led by Da'is in Yemen and later India",
+                                                                                        "descendants": {
+                                                                                            "Dawoodi Bohra Leadership": {
+                                                                                                "note": "Modern-day leaders based in India",
+                                                                                                "descendants": {
+                                                                                                    "Syedna Mufaddal Saifuddin": {
+                                                                                                        "born": 1946,
+                                                                                                        "note": "Current 53rd Da'i al-Mutlaq of the Dawoodi Bohra community"
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
