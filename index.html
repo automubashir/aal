@@ -19,7 +19,7 @@
 
   <script>
     async function fetchLineage() {
-      const response = await fetch('data\'ali_lineage.json'); // Should be hosted in the same directory
+      const response = await fetch('data/ali_lineage.json'); // Should be hosted in the same directory
       const lineage = await response.json();
       const nodes = new vis.DataSet();
       const edges = new vis.DataSet();
