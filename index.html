@@ -60,9 +60,13 @@
       const data = { nodes, edges };
       const options = {
         layout: {
-          hierarchical: {
-            direction: "UD",
-            sortMethod: "directed"
+          hierarchical: false
+        },
+        physics: {
+          enabled: true,
+          solver: "repulsion",
+          repulsion: {
+            nodeDistance: 120
           }
         },
         nodes: {
