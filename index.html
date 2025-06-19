@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasan & Husayn Lineage Tree</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" />
+  <style>
+    #mynetwork {
+      width: 100%;
+      height: 100vh;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+  <div id="mynetwork"></div>
+
+  <script>
+    const nodes = new vis.DataSet([
+      { id: 1, label: "Ali & Fatimah", shape: "box" },
+      { id: 2, label: "Hasan" },
+      { id: 3, label: "Husayn" },
+      { id: 4, label: "Hasan al-Muthanna" },
+      { id: 5, label: "Ali Zayn al-Abidin" },
+      { id: 6, label: "Abdullah al-Kamil" },
+      { id: 7, label: "Idris I (Morocco)" },
+      { id: 8, label: "Idris II" },
+      { id: 9, label: "Sharifs of Makkah" },
+      { id: 10, label: "Hashemites (Jordan)" },
+      { id: 11, label: "Alaouites (Morocco)" },
+      { id: 12, label: "Muhammad al-Baqir" },
+      { id: 13, label: "Ja'far al-Sadiq" },
+      { id: 14, label: "Isma'il ibn Ja'far" },
+      { id: 15, label: "Muhammad ibn Isma'il" },
+      { id: 16, label: "Fatimid Caliphate" },
+      { id: 17, label: "Nizari (Aga Khan)" },
+      { id: 18, label: "Tayyibi (Bohras)" },
+      { id: 19, label: "Musa al-Kazim" },
+      { id: 20, label: "Ali al-Ridha" },
+      { id: 21, label: "Muhammad al-Taqi" },
+      { id: 22, label: "Ali al-Hadi" },
+      { id: 23, label: "Hasan al-Askari" },
+      { id: 24, label: "Muhammad al-Mahdi" }
+    ]);
+
+    const edges = new vis.DataSet([
+      { from: 1, to: 2 },
+      { from: 1, to: 3 },
+      { from: 2, to: 4 },
+      { from: 4, to: 6 },
+      { from: 6, to: 7 },
+      { from: 7, to: 8 },
+      { from: 6, to: 9 },
+      { from: 6, to: 10 },
+      { from: 6, to: 11 },
+      { from: 3, to: 5 },
+      { from: 5, to: 12 },
+      { from: 12, to: 13 },
+      { from: 13, to: 14 },
+      { from: 14, to: 15 },
+      { from: 15, to: 16 },
+      { from: 16, to: 17 },
+      { from: 16, to: 18 },
+      { from: 13, to: 19 },
+      { from: 19, to: 20 },
+      { from: 20, to: 21 },
+      { from: 21, to: 22 },
+      { from: 22, to: 23 },
+      { from: 23, to: 24 }
+    ]);
+
+    const container = document.getElementById("mynetwork");
+    const data = { nodes, edges };
+    const options = {
+      layout: {
+        hierarchical: {
+          direction: "UD",
+          sortMethod: "directed"
+        }
+      },
+      nodes: {
+        shape: "ellipse",
+        font: {
+          size: 14
+        }
+      },
+      edges: {
+        arrows: "to"
+      },
+      physics: false
+    };
+
+    new vis.Network(container, data, options);
+  </script>
+</body>
+</html>
